@@ -23,4 +23,4 @@ Bryan C. Carstens, Holly N. Stoute, **Noah M. Reid**.  2009.  *An information-th
 
 Jeffrey M. Good, Sarah M. Hird, **Noah Reid**, John R. Demboski, Scott J. Steppan, Tina R. Martin-Nims, Jack Sullivan.  2008.  *Ancient hybridization and mitochondrial capture between two species of chipmunks.*  Molecular Ecology 17(5):1313-1327.  
 
-Polly Campbell, **Noah M. Reid**, Akbar Zubaid, nAdura M. Adnan, Thomas H. Kunz.  2006.  *Comparative Roosting Ecology of *Cynopterus* (Chiroptera: Pteropodidae) Fruit Bats in Peninsular Malaysia.*  Biotropica 38(6):725-734.  
+Polly Campbell, **Noah M. Reid**, Akbar Zubaid, nAdura M. Adnan, Thomas H. Kunz.  2006.  *Comparative Roosting Ecology of Cynopterus (Chiroptera: Pteropodidae) Fruit Bats in Peninsular Malaysia.*  Biotropica 38(6):725-734.  
