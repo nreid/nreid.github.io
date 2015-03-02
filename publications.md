@@ -5,7 +5,7 @@ title: Publications
 
 Download my [C.V.](/assets/NoahReid_CV_Full_Feb2015_final.pdf) and check out my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
-Sullivan, Jack, John R Demboski, Kaycee C Bell, Sarah Hird, Brice Sarver, **Noah Reid**, and Jeff M Good. (2014). *Divergence with gene flow within the recent chipmunk radiation* (Tamias).* Heredity.
+Sullivan, Jack, John R Demboski, Kaycee C Bell, Sarah Hird, Brice Sarver, **Noah Reid**, and Jeff M Good. (2014). *Divergence with gene flow within the recent chipmunk radiation* (Tamias). Heredity.
 
 **Noah M. Reid**, Sarah Hird, Jeremy M Brown, John D McVay, Tara A Pelletier and Bryan C Carstens. 2013. *Poor fit to the multispecies coalescent is widely detectable in empirical data.* Systematic Biology.  
 
