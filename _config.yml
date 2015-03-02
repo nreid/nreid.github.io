@@ -19,4 +19,4 @@ github:
   repo:           https://github.com/nreid/nreid.github.io
 
 
-pages_list:	{'Research':'/research/','Publications':'/publications/','About':'/about','Archive':'/archive'}
+pages_list:	{'About':'/about/','Research':'/research/','Publications':'/publications/','Software':'/software/','Archive':'/archive'}
