@@ -19,4 +19,6 @@ github:
   repo:           https://github.com/nreid/nreid.github.io
 
 
-pages_list:       {'About':'/about','Archive':'/archive'}
+pages_list:       
+	'About':'/about'
+	'Archive':'/archive'
