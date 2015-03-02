@@ -3,6 +3,17 @@ layout: page
 title: About
 ---
 
+I'm interested in diversity, describing its distribution and forces that shape it. In my research I use and develop tools from systematics, evolutionary genetics and ecology to try to understand historical and contemporary forces that influence patterns of species diversity and patterns of genetic diversity within species.  
+
+I am currently working as a post-doc with [Andrew Whitehead](https://whiteheadresearch.wordpress.com/) at the University of California, Davis looking at the genomic basis of pollution tolerance in Fundulus. Some populations of these fishes have evolved a high tolerance to certain pollutants in a very short period of time. We will bring recently developed genomic resources in Fundulus to bear on understanding the mechanism by which this adaptation has occurred. I recently finished my PhD working with [Bryan Carstens](http://carstenslab.org.ohio-state.edu/) at Louisiana State University. 
+
+If you are interested in the work I've done, here are my [C.V.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxub2FobXJlaWR8Z3g6MTE1NTFhZTdiMTk4YWMwZg) and my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
+
+I am an administrator/contributor at the group blog [Nothing in Biology Makes Sense!](http://nothinginbiology.org/), which covers new research in the fields of Evolution and Ecology. Check it out! Like us on [Facebook](http://www.facebook.com/NothingInBiology) or follow us on [Twitter](http://twitter.com/NothingInBio)! 
+
+
+
+
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
