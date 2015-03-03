@@ -9,7 +9,7 @@ The choice I'm currently mulling is whether we should try to assemble transcript
 
 Further complicating things, I've already tried mapping back to the reference genome with the Tuxedo pipeline, and mapping rates for species that diverge from the reference are stunningly low. Things get much better if I map to the transcriptome using a sensitive aligner like Stampy, but it seems we'll lose some of the benefit of reference mapping if we have to use our established species-specific transcriptome. 
 
-I've been trying to review the literature, but there isn't a whole lot on this issue, but these papers have been helpful in thinking about this:
+I've been trying to review the literature, but there isn't a whole lot on this issue. These these papers have been helpful in thinking about it though:
 
 Vijay, Nagarjun, et al. *"Challenges and strategies in transcriptome assembly and differential gene expression quantification. A comprehensive in silico assessment of RNA‐seq experiments."* Molecular ecology 22.3 (2013): 620-634.
 
