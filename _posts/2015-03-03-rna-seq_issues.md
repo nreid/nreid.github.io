@@ -11,9 +11,9 @@ Further complicating things, I've already tried mapping back to the reference ge
 
 I've been trying to review the literature, but there isn't a whole lot on this issue, but these papers have been helpful in thinking about this:
 
-Vijay, Nagarjun, et al. "Challenges and strategies in transcriptome assembly and differential gene expression quantification. A comprehensive in silico assessment of RNA‐seq experiments." Molecular ecology 22.3 (2013): 620-634.
+Vijay, Nagarjun, et al. *"Challenges and strategies in transcriptome assembly and differential gene expression quantification. A comprehensive in silico assessment of RNA‐seq experiments."* Molecular ecology 22.3 (2013): 620-634.
 
-Benjamin, Ashlee M., et al. "Comparing reference-based RNA-Seq mapping methods for non-human primate data." BMC genomics 15.1 (2014): 570.
+Benjamin, Ashlee M., et al. *"Comparing reference-based RNA-Seq mapping methods for non-human primate data."* BMC genomics 15.1 (2014): 570.
 
-Hornett, Emily A., and Christopher W. Wheat. "Quantitative RNA-Seq analysis in non-model species: assessing transcriptome assemblies as a scaffold and the utility of evolutionary divergent genomic reference species." BMC genomics 13.1 (2012): 361.
+Hornett, Emily A., and Christopher W. Wheat. *"Quantitative RNA-Seq analysis in non-model species: assessing transcriptome assemblies as a scaffold and the utility of evolutionary divergent genomic reference species."* BMC genomics 13.1 (2012): 361.
 
