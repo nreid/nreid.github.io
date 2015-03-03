@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparative RNA-seq1
+title: Comparative RNA-seq
 ---
 
 I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we're faced with problems that I'm not sure how to deal with. 
