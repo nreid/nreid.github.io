@@ -18,4 +18,7 @@ I am an administrator/contributor at the group blog [Nothing in Biology Makes Se
 
 I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also currently a postdoc who works in [Jonathan Eisen's](https://phylogenomics.wordpress.com/) lab on microbial metagenomics here at UC Davis. We have a wonderful toddler and a dog who's still adjusting to that fact. 
 
+-----
+
+<object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fmattoon%2Fshow%2F&page_show_back_url=%2Fphotos%2Fmattoon%2F&user_id=19943886@N00&jump_to="></param> <param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fmattoon%2Fshow%2F&page_show_back_url=%2Fphotos%2Fmattoon%2F&user_id=19943886@N00&jump_to=" width="400" height="300"></embed></object>
 
