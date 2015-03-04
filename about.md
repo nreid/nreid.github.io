@@ -21,15 +21,12 @@ I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also curr
 -----
 
 ### Contact
-_e-mail:_  
-nreid@ucdavis.edu  
-noah.reid@gmail.com  
+_e-mail:_&nbsp;nreid@ucdavis.edu  
+&nbsp;&nbsp;&nbsp;&nbsp;noah.reid@gmail.com  
 
-_twitter:_ 
-[@NM_Reid](https://twitter.com/NM_Reid)  
+_twitter:_ [@NM_Reid](https://twitter.com/NM_Reid)  
 
-_lab:_      
-530-752-2473  
+_lab:_ 530-752-2473  
 
 _address:_  
 University of California, Davis  
