@@ -28,11 +28,11 @@ lab:      >530-752-2473
 
 address:  
   
-University of California, Davis  
-Department of Environmental Toxicology  
-4138 Meyer Hall  
-1 Shields Avenue  
-Davis, CA 95616  
+>University of California, Davis  
+>Department of Environmental Toxicology  
+>4138 Meyer Hall  
+>1 Shields Avenue  
+>Davis, CA 95616  
 
 -----
 
