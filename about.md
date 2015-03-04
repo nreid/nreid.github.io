@@ -35,5 +35,18 @@ _address:_
 
 -----
 
-<object width="800" height="600"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fmattoon%2Fshow%2F&page_show_back_url=%2Fphotos%2Fmattoon%2F&user_id=19943886@N00&jump_to="></param> <param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fmattoon%2Fshow%2F&page_show_back_url=%2Fphotos%2Fmattoon%2F&user_id=19943886@N00&jump_to=" width="800" height="600"></embed></object>
+### Links
 
+[Andrew Whitehead's](https://whiteheadresearch.wordpress.com/) webpage and the [Department of Environmental Toxicology.](http://www.envtox.ucdavis.edu/)
+
+My wife, a postdoc in the Genome Center at U.C. Davis, [Sarah M. Hird](https://sites.google.com/site/sarahhird/)
+
+Ph.D institution, [LSU](http://www.biology.lsu.edu/cos/biosci/). Geaux Tigers!
+
+PhD advisor: [Bryan Carstens](http://carstenslab.org.ohio-state.edu/people.html) at [The Ohio State University.](http://www.osu.edu/) 
+
+M.S. advisor: [Jack Sullivan](http://www.webpages.uidaho.edu/~jacks/) at the [University of Idaho.](http://www.uidaho.edu/) 
+
+The group blog I administer/contribute to: [Nothing in Biology Makes Sense!](http://nothinginbiology.org/)
+
+[The Boston University Tropical Ecology Program](http://www.bu.edu/cecb/tep/), a fantastic experience that really fired up my interest in evolution and ecology as an undergrad. 
