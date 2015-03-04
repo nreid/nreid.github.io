@@ -22,6 +22,7 @@ I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also curr
 
 ### Contact
 e-mail:   
+
 >nreid@ucdavis.edu  
 >noah.reid@gmail.com  
 
