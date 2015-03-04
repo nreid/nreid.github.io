@@ -21,12 +21,13 @@ I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also curr
 -----
 
 ### Contact
-e-mail:	nreid@ucdavis.edu
-		noah.reid@gmail.com
-twitter: [@NM_Reid](https://twitter.com/NM_Reid)
-lab phone: 530-752-2473
-address:
+e-mail:	nreid@ucdavis.edu  
+		noah.reid@gmail.com  
+twitter: [@NM_Reid](https://twitter.com/NM_Reid)  
+lab phone: 530-752-2473  
 
+address:  
+  
 University of California, Davis
 Department of Environmental Toxicology
 4138 Meyer Hall
