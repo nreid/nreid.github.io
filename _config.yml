@@ -1,12 +1,16 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
 
 # Setup
 title:            Noah Reid
 tagline:          
 url:              http://getpoole.com
-paginate:         1
+paginate:         3
+paginate_path: "page:num"
+gems:          [jekyll-paginate, jekyll-gist]
+
+
 baseurl:          /
 author:
   name:           Noah Reid

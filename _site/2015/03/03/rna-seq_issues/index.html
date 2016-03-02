@@ -10,7 +10,7 @@
 
   <title>
     
-      Noah Reid &middot; 
+      Comparative RNA-seq &middot; Noah Reid
     
   </title>
 
@@ -56,18 +56,10 @@
       </header>
 
       <main>
-        <div class="posts">
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2015/03/03/rna-seq_issues/">
-        Comparative RNA-seq
-      </a>
-    </h1>
-
-    <time datetime="2015-03-03T00:00:00-08:00" class="post-date">03 Mar 2015</time>
-
-    <p>I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we’re faced with problems that I’m not sure how to deal with.</p>
+        <article class="post">
+  <h1 class="post-title">Comparative RNA-seq</h1>
+  <time datetime="2015-03-03T00:00:00-08:00" class="page-date">03 Mar 2015</time>
+  <p>I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we’re faced with problems that I’m not sure how to deal with.</p>
 
 <p>The choice I’m currently mulling is whether we should try to assemble transcriptomes de novo for each species, or map them all back to a common reference. If we do reference mapping, things are computationally simpler and a larger gene set will ultimately be evaluated, but it seems that there must be some biases associated with the mapping, including mismapping resulting from divergence, failure to account for gene duplication/extinction among species etc. On the other hand, if we attempt de novo assemblies, we vastly increase the computational complexity, presumably many genes won’t be assembled in many species, and thus won’t be analyzed, but we will probably get a more accurate quantification of those genes that are included.</p>
 
@@ -82,37 +74,39 @@
 <p>Hornett, Emily A., and Christopher W. Wheat. <em>“Quantitative RNA-Seq analysis in non-model species: assessing transcriptome assemblies as a scaffold and the utility of evolutionary divergent genomic reference species.”</em> BMC genomics 13.1 (2012): 361.</p>
 
 
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2015/03/02/welcome/">
-        Welcome to my new site.
-      </a>
-    </h1>
+</article>
 
-    <time datetime="2015-03-02T00:00:00-08:00" class="post-date">02 Mar 2015</time>
-
-    <p>I’m experimenting with moving my site from <a href="sites.google.com/site/noahmreid">Google Sites</a> to github pages. I know basically nothing about designing and hosting webpages, but using <a href="http://jekyllrb.com/">jekyll</a> seems like a potentially more intuitive and straightforward approach than using the WYSIWYG editors of google sites or wordpress. Maybe more fun too.</p>
-
-<p>Also, it’ll be simple to incorporate a blog into my page, and lately I’ve been feeling like blogging some of my struggles with analyzing low coverage next-gen data from a non-model organism might be a useful exercise.</p>
-
-<p>I got started with the relatively straightforward instructions on <a href="http://joshualande.com/jekyll-github-pages-poole/">this</a> page and <a href="http://jekyllrb.com/">jekyll’s</a> site.</p>
-
-  </article>
-  
-</div>
-
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
-</div>
+<aside class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="//2015/03/02/welcome/">
+            Welcome to my new site.
+            <small><time datetime="2015-03-02T00:00:00-08:00">02 Mar 2015</time></small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</aside>
 
 		
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nreidgithubio';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
       </main>
 
 
