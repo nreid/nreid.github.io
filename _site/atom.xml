@@ -4,13 +4,24 @@
  <title>Noah Reid</title>
  <link href="http://getpoole.com/atom.xml" rel="self"/>
  <link href="http://getpoole.com/"/>
- <updated>2016-03-02T11:27:23-08:00</updated>
+ <updated>2016-03-02T11:36:27-08:00</updated>
  <id>http://getpoole.com</id>
  <author>
    <name>Noah Reid</name>
    <email>noah.reid@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>New paper!</title>
+   <link href="http://getpoole.com//2016/03/02/newpaper/"/>
+   <updated>2016-03-02T00:00:00-08:00</updated>
+   <id>http://getpoole.com/2016/03/02/newpaper</id>
+   <content type="html">&lt;p&gt;I haven’t posted in a while, but the first of several papers from my postdoctoral work in the Whitehead lab has been &lt;a href=&quot;http://bfg.oxfordjournals.org/content/early/2015/12/20/bfgp.elv060.abstract&quot;&gt;published&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Reid, Noah M., and Andrew Whitehead. &lt;em&gt;“Functional genomics to assess biological responses to marine pollution at physiological and evolutionary timescales: toward a vision of predictive ecotoxicology.”&lt;/em&gt; &lt;strong&gt;Briefings in functional genomics&lt;/strong&gt; (2015): elv060.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Comparative RNA-seq</title>
