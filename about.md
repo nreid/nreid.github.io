@@ -20,7 +20,7 @@ I am an administrator/contributor at the group blog [Nothing in Biology Makes Se
 
 -----
 
-I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also currently a postdoc who works in [Jonathan Eisen's](https://phylogenomics.wordpress.com/) lab on microbial metagenomics here at UC Davis. She is starting as an Assistant Professor at UCONN in Fall 2016. We have a wonderful toddler, a seven month old and a dog who, while she likes the food involved, is overall kind of nonplussed about the whole thing. 
+I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also currently a postdoc who works in [Jonathan Eisen's](https://phylogenomics.wordpress.com/) lab on microbial metagenomics here at UC Davis. She is starting as an Assistant Professor at UCONN in Fall 2016. We have a wonderful toddler, a seven month old, and a dog who, while she likes the food involved, is overall kind of nonplussed about the whole kid thing. 
 
 -----
 
