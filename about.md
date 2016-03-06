@@ -8,7 +8,7 @@ I'm interested in diversity, describing its distribution and forces that shape i
 
 -----
 
-In Fall 2016, I will be starting as a Research Assistant Professor in the [Department of Molecular and Cell Biology](http://mcb.uconn.edu) at the University of Connecticut. 
+In Fall 2016, I will be starting as a Research Assistant Professor in the [Department of Molecular and Cell Biology](http://mcb.uconn.edu) at the [University of Connecticut](http://uconn.edu). 
 
 -----
 
