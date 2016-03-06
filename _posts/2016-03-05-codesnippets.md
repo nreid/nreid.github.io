@@ -20,7 +20,7 @@ Here I've extracted the contents of the tag 'DP', which contains the depth of co
 
 In this case I'm feeding a line of code to the system, "cl", with `pipe()`, and reading the results into R with `scan()`. 
 
-To break down "cl": I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep. The flag `-o` extracts the regex match, and `-P` allows me to use what's called a 'positive lookahead'. That's the section `(?<=DP=)`. This requires the regex to match "DP=", but doesn't return it as part of the match. Then I match the characters in the field with `[^;]+`, which matches one or more of any character except ";", which is the field delimiter. 
+To break down "cl": I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep to pull out the depth. The flag `-o` extracts the regex match, and `-P` allows me to use what's called a 'positive lookahead'. That's the section `(?<=DP=)`. This requires the regex to match "DP=", but doesn't return it as part of the match. Then I match the characters in the field with `[^;]+`, which matches one or more of any character except ";", which is the field delimiter. 
 
 Here's the result:
 
