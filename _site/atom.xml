@@ -4,13 +4,38 @@
  <title>Noah Reid</title>
  <link href="http://getpoole.com/atom.xml" rel="self"/>
  <link href="http://getpoole.com/"/>
- <updated>2016-03-02T12:26:08-08:00</updated>
+ <updated>2016-03-05T19:42:45-08:00</updated>
  <id>http://getpoole.com</id>
  <author>
    <name>Noah Reid</name>
    <email>noah.reid@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Testing code snippets.</title>
+   <link href="http://getpoole.com//2016/03/05/codesnippets/"/>
+   <updated>2016-03-05T00:00:00-08:00</updated>
+   <id>http://getpoole.com/2016/03/05/codesnippets</id>
+   <content type="html">&lt;p&gt;I’m just writing this to see how code snippets work using markdown and jekyll…&lt;/p&gt;
+
+&lt;p&gt;Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tabix my.vcf.bgz Scaffold10 | grep -oP &#39;(?&amp;lt;=DP=)[^;]+&#39;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;hist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Depth&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breaks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here I’ve extracted the contents of the tag ‘DP’, which contains the depth of coverage of the variant.&lt;/p&gt;
+
+&lt;p&gt;In this case I’m feeding a line of code to the system, “cl”, with &lt;code class=&quot;highlighter-rouge&quot;&gt;pipe()&lt;/code&gt;, and reading the results into R with &lt;code class=&quot;highlighter-rouge&quot;&gt;scan()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep. The flag &lt;code class=&quot;highlighter-rouge&quot;&gt;-o&lt;/code&gt; extracts the regex match, and &lt;code class=&quot;highlighter-rouge&quot;&gt;-P&lt;/code&gt; allows me to use what’s called a ‘positive lookahead’. That’s the section &lt;code class=&quot;highlighter-rouge&quot;&gt;(?&amp;lt;=DP=)&lt;/code&gt;. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with &lt;code class=&quot;highlighter-rouge&quot;&gt;[^;]+&lt;/code&gt;, which matches one or more of any character except “;”, which is the field delimiter.&lt;/p&gt;
+
+&lt;p&gt;Here’s the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/test.hist.png&quot; alt=&quot;histogram&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>New paper!</title>
