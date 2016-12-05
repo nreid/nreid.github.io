@@ -5,9 +5,9 @@ title: Publications
 
 Download my [C.V.](/assets/NoahReid_CV_Full_Feb2015_final.pdf) and check out my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
-**Noah M. Reid**, Andrew Whitehead. 2015. *Functional genomics to assess biological responses to marine pollution at physiological and evolutionary timescales: toward a vision of predictive ecotoxicology.* Briefings in functional genomics elv060.
-
 Michael Gruenstaeudl, **Noah M. Reid**, Gregory L. Wheeler, and Bryan C. Carstens. 2016. _Posterior predictive checks of coalescent models: P2C2M, an R package._ Molecular ecology resources, 16(1), 193-205..
+
+**Noah M. Reid**, Andrew Whitehead. 2015. *Functional genomics to assess biological responses to marine pollution at physiological and evolutionary timescales: toward a vision of predictive ecotoxicology.* Briefings in functional genomics elv060.
 
 Jack Sullivan, John R Demboski, Kaycee C Bell, Sarah Hird, Brice Sarver, **Noah Reid**, and Jeff M Good. (2014). *Divergence with gene flow within the recent chipmunk radiation* (Tamias). Heredity 113.3: 185-194.
 

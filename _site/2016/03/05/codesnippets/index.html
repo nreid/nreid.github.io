@@ -58,7 +58,7 @@
       <main>
         <article class="post">
   <h2 class="post-title">Testing code snippets.</h2>
-  <time datetime="2016-03-05T00:00:00-08:00" class="page-date">05 Mar 2016</time>
+  <time datetime="2016-03-05T00:00:00-05:00" class="page-date">05 Mar 2016</time>
   <p>I’m just writing this to see how code snippets work using markdown and jekyll…</p>
 
 <p>Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…</p>
@@ -71,7 +71,7 @@
 
 <p>In this case I’m feeding a line of code to the system, “cl”, with <code class="highlighter-rouge">pipe()</code>, and reading the results into R with <code class="highlighter-rouge">scan()</code>.</p>
 
-<p>To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep. The flag <code class="highlighter-rouge">-o</code> extracts the regex match, and <code class="highlighter-rouge">-P</code> allows me to use what’s called a ‘positive lookahead’. That’s the section <code class="highlighter-rouge">(?&lt;=DP=)</code>. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with <code class="highlighter-rouge">[^;]+</code>, which matches one or more of any character except “;”, which is the field delimiter.</p>
+<p>To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep to pull out the depth. The flag <code class="highlighter-rouge">-o</code> extracts the regex match, and <code class="highlighter-rouge">-P</code> allows me to use what’s called a ‘positive lookahead’. That’s the section <code class="highlighter-rouge">(?&lt;=DP=)</code>. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with <code class="highlighter-rouge">[^;]+</code>, which matches one or more of any character except “;”, which is the field delimiter.</p>
 
 <p>Here’s the result:</p>
 
@@ -87,7 +87,7 @@
         <h4>
           <a href="//2016/03/02/newpaper/">
             New paper!
-            <small><time datetime="2016-03-02T00:00:00-08:00">02 Mar 2016</time></small>
+            <small><time datetime="2016-03-02T00:00:00-05:00">02 Mar 2016</time></small>
           </a>
         </h4>
       </li>
@@ -96,7 +96,7 @@
         <h4>
           <a href="//2015/03/03/rna-seq_issues/">
             Comparative RNA-seq
-            <small><time datetime="2015-03-03T00:00:00-08:00">03 Mar 2015</time></small>
+            <small><time datetime="2015-03-03T00:00:00-05:00">03 Mar 2015</time></small>
           </a>
         </h4>
       </li>
@@ -105,7 +105,7 @@
         <h4>
           <a href="//2015/03/02/welcome/">
             Welcome to my new site.
-            <small><time datetime="2015-03-02T00:00:00-08:00">02 Mar 2015</time></small>
+            <small><time datetime="2015-03-02T00:00:00-05:00">02 Mar 2015</time></small>
           </a>
         </h4>
       </li>
@@ -134,7 +134,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-03-05T19:42:45-08:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2016-12-05T12:53:21-05:00">2016</time>. All rights reserved.
         </small>
       </footer>
     </div>

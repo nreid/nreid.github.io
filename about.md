@@ -8,11 +8,9 @@ I'm interested in diversity, describing its distribution and forces that shape i
 
 -----
 
-In Fall 2016, I will be starting as a Research Assistant Professor in the [Department of Molecular and Cell Biology](http://mcb.uconn.edu) at the [University of Connecticut](http://uconn.edu). 
+In Fall 2016, I started as an Assistant Research Professor in the [Department of Molecular and Cell Biology](http://mcb.uconn.edu) at the [University of Connecticut](http://uconn.edu). 
 
 -----
-
-I am currently working as a post-doc with [Andrew Whitehead](https://whiteheadresearch.wordpress.com/) at the University of California, Davis looking at the genomic basis of pollution tolerance in Fundulus. Some populations of these fishes have evolved a high tolerance to certain pollutants in a very short period of time. We will bring recently developed genomic resources in Fundulus to bear on understanding the mechanism by which this adaptation has occurred. I recently finished my PhD working with [Bryan Carstens](http://carstenslab.org.ohio-state.edu/) at Louisiana State University. 
 
 If you are interested in the work I've done, here are my [C.V.](/assets/NoahReid_CV_Full_Feb2015_final.pdf) and my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
@@ -20,22 +18,21 @@ I am an administrator/contributor at the group blog [Nothing in Biology Makes Se
 
 -----
 
-I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), also currently a postdoc who works in [Jonathan Eisen's](https://phylogenomics.wordpress.com/) lab on microbial metagenomics here at UC Davis. She is starting as an Assistant Professor at UCONN in Fall 2016. We have a wonderful toddler, a seven month old, and a dog who, while she likes the food involved, is overall kind of nonplussed about the whole kid thing. 
+I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), an Assistant Professor in MCB here at UConn. We have two young sons, and a dog who, while enthusiastic about the food mess, is overall kind of nonplussed about the whole kid thing. 
 
 -----
 
 ### Contact
-_e-mail:_&nbsp;nreid@ucdavis.edu  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noah.reid@gmail.com  
+_e-mail:_&nbsp;noah.reid@uconn.edu  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 _twitter:_ [@NM_Reid](https://twitter.com/NM_Reid)  
-_lab:_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;530-752-2473  
+_office:_&nbsp;&nbsp;&nbsp;860-486-6963  
 
 _address:_  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of California, Davis  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Environmental Toxicology  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4138 Meyer Hall  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Shields Avenue  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Davis, CA 95616  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Connnecticut  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Molecular and Cell Biology  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;91 North Eagleville Rd.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Storrs, CT 06269  
 
 -----
 

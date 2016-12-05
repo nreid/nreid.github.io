@@ -65,7 +65,7 @@
       </a>
     </h2>
 
-    <time datetime="2016-03-05T00:00:00-08:00" class="post-date">05 Mar 2016</time>
+    <time datetime="2016-03-05T00:00:00-05:00" class="post-date">05 Mar 2016</time>
 
     <p>I’m just writing this to see how code snippets work using markdown and jekyll…</p>
 
@@ -79,7 +79,7 @@
 
 <p>In this case I’m feeding a line of code to the system, “cl”, with <code class="highlighter-rouge">pipe()</code>, and reading the results into R with <code class="highlighter-rouge">scan()</code>.</p>
 
-<p>To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep. The flag <code class="highlighter-rouge">-o</code> extracts the regex match, and <code class="highlighter-rouge">-P</code> allows me to use what’s called a ‘positive lookahead’. That’s the section <code class="highlighter-rouge">(?&lt;=DP=)</code>. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with <code class="highlighter-rouge">[^;]+</code>, which matches one or more of any character except “;”, which is the field delimiter.</p>
+<p>To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep to pull out the depth. The flag <code class="highlighter-rouge">-o</code> extracts the regex match, and <code class="highlighter-rouge">-P</code> allows me to use what’s called a ‘positive lookahead’. That’s the section <code class="highlighter-rouge">(?&lt;=DP=)</code>. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with <code class="highlighter-rouge">[^;]+</code>, which matches one or more of any character except “;”, which is the field delimiter.</p>
 
 <p>Here’s the result:</p>
 
@@ -94,7 +94,7 @@
       </a>
     </h2>
 
-    <time datetime="2016-03-02T00:00:00-08:00" class="post-date">02 Mar 2016</time>
+    <time datetime="2016-03-02T00:00:00-05:00" class="post-date">02 Mar 2016</time>
 
     <p>I haven’t posted in a while, but the first of several papers from my postdoctoral work in the Whitehead lab has been <a href="http://bfg.oxfordjournals.org/content/early/2015/12/20/bfgp.elv060.abstract">published</a>!</p>
 
@@ -109,7 +109,7 @@
       </a>
     </h2>
 
-    <time datetime="2015-03-03T00:00:00-08:00" class="post-date">03 Mar 2015</time>
+    <time datetime="2015-03-03T00:00:00-05:00" class="post-date">03 Mar 2015</time>
 
     <p>I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we’re faced with problems that I’m not sure how to deal with.</p>
 
@@ -146,7 +146,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-03-05T19:42:45-08:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2016-12-05T12:53:21-05:00">2016</time>. All rights reserved.
         </small>
       </footer>
     </div>
