@@ -14,6 +14,8 @@ In Fall 2016, I started as an Assistant Research Professor in the [Department of
 
 If you are interested in the work I've done, here are my [C.V.](/assets/NoahReid_CV_Full_Oct2017.pdf) and my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
+-----
+
 I am an administrator/contributor at the group blog [Nothing in Biology Makes Sense!](http://nothinginbiology.org/), which covers new research in the fields of Evolution and Ecology. Check it out! Like us on [Facebook](http://www.facebook.com/NothingInBiology) or follow us on [Twitter](http://twitter.com/NothingInBio)! 
 
 -----
