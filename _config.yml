@@ -11,7 +11,7 @@ paginate_path:    "page:num"
 plugins:          [jekyll-paginate, jekyll-gist]
 
 
-baseurl:          //
+baseurl:          /
 author:
   name:           Noah Reid
   url:            https://twitter.com/NM_Reid
