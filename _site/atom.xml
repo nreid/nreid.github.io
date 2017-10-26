@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Noah Reid</title>
- <link href="http://getpoole.com/atom.xml" rel="self"/>
- <link href="http://getpoole.com/"/>
- <updated>2017-10-26T11:52:52-04:00</updated>
- <id>http://getpoole.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-10-26T12:00:13-04:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Noah Reid</name>
    <email>noah.reid@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Update.</title>
-   <link href="http://getpoole.com//2016/12/05/update/"/>
+   <link href="http://localhost:4000//2016/12/05/update/"/>
    <updated>2016-12-05T00:00:00-05:00</updated>
-   <id>http://getpoole.com/2016/12/05/update</id>
+   <id>http://localhost:4000/2016/12/05/update</id>
    <content type="html">&lt;p&gt;Since my last post, I have moved to the &lt;a href=&quot;http://uconn.edu&quot;&gt;University of Connecticut&lt;/a&gt; and started a position as Assistant Research Professor in the &lt;a href=&quot;http://mcb.uconn.edu&quot;&gt;Department of Molecular and Cell Biology&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I am doing a few things at the moment:&lt;/p&gt;
@@ -32,9 +32,9 @@
  
  <entry>
    <title>Testing code snippets.</title>
-   <link href="http://getpoole.com//2016/03/05/codesnippets/"/>
+   <link href="http://localhost:4000//2016/03/05/codesnippets/"/>
    <updated>2016-03-05T00:00:00-05:00</updated>
-   <id>http://getpoole.com/2016/03/05/codesnippets</id>
+   <id>http://localhost:4000/2016/03/05/codesnippets</id>
    <content type="html">&lt;p&gt;I’m just writing this to see how code snippets work using markdown and jekyll…&lt;/p&gt;
 
 &lt;p&gt;Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…&lt;/p&gt;
@@ -57,9 +57,9 @@
  
  <entry>
    <title>New paper!</title>
-   <link href="http://getpoole.com//2016/03/02/newpaper/"/>
+   <link href="http://localhost:4000//2016/03/02/newpaper/"/>
    <updated>2016-03-02T00:00:00-05:00</updated>
-   <id>http://getpoole.com/2016/03/02/newpaper</id>
+   <id>http://localhost:4000/2016/03/02/newpaper</id>
    <content type="html">&lt;p&gt;I haven’t posted in a while, but the first of several papers from my postdoctoral work in the Whitehead lab has been &lt;a href=&quot;http://bfg.oxfordjournals.org/content/early/2015/12/20/bfgp.elv060.abstract&quot;&gt;published&lt;/a&gt;!&lt;/p&gt;
 
 &lt;p&gt;Reid, Noah M., and Andrew Whitehead. &lt;em&gt;“Functional genomics to assess biological responses to marine pollution at physiological and evolutionary timescales: toward a vision of predictive ecotoxicology.”&lt;/em&gt; &lt;strong&gt;Briefings in functional genomics&lt;/strong&gt; (2015): elv060.&lt;/p&gt;
@@ -68,9 +68,9 @@
  
  <entry>
    <title>Comparative RNA-seq</title>
-   <link href="http://getpoole.com//2015/03/03/rna-seq_issues/"/>
+   <link href="http://localhost:4000//2015/03/03/rna-seq_issues/"/>
    <updated>2015-03-03T00:00:00-05:00</updated>
-   <id>http://getpoole.com/2015/03/03/rna-seq_issues</id>
+   <id>http://localhost:4000/2015/03/03/rna-seq_issues</id>
    <content type="html">&lt;p&gt;I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we’re faced with problems that I’m not sure how to deal with.&lt;/p&gt;
 
 &lt;p&gt;The choice I’m currently mulling is whether we should try to assemble transcriptomes de novo for each species, or map them all back to a common reference. If we do reference mapping, things are computationally simpler and a larger gene set will ultimately be evaluated, but it seems that there must be some biases associated with the mapping, including mismapping resulting from divergence, failure to account for gene duplication/extinction among species etc. On the other hand, if we attempt de novo assemblies, we vastly increase the computational complexity, presumably many genes won’t be assembled in many species, and thus won’t be analyzed, but we will probably get a more accurate quantification of those genes that are included.&lt;/p&gt;
@@ -90,9 +90,9 @@
  
  <entry>
    <title>Welcome to my new site.</title>
-   <link href="http://getpoole.com//2015/03/02/welcome/"/>
+   <link href="http://localhost:4000//2015/03/02/welcome/"/>
    <updated>2015-03-02T00:00:00-05:00</updated>
-   <id>http://getpoole.com/2015/03/02/welcome</id>
+   <id>http://localhost:4000/2015/03/02/welcome</id>
    <content type="html">&lt;p&gt;I’m experimenting with moving my site from &lt;a href=&quot;sites.google.com/site/noahmreid&quot;&gt;Google Sites&lt;/a&gt; to github pages. I know basically nothing about designing and hosting webpages, but using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; seems like a potentially more intuitive and straightforward approach than using the WYSIWYG editors of google sites or wordpress. Maybe more fun too.&lt;/p&gt;
 
 &lt;p&gt;Also, it’ll be simple to incorporate a blog into my page, and lately I’ve been feeling like blogging some of my struggles with analyzing low coverage next-gen data from a non-model organism might be a useful exercise.&lt;/p&gt;
