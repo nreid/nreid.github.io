@@ -1,0 +1,135 @@
+Package written by:
+Noah Reid
+nreid1@tigers.lsu.edu (until summer 2013) or noah.reid@gmail.com
+
+These instructions are for an R package that implements a Bayesian version of the general mixed yule-coalescent model of Pons et al. (2006). This work is published at BMC Evolutionary Biology. The citation will be Reid and Carstens 2012. Phylogenetic estimation error can decrease the accuracy species delimitation: A Bayesian implementation of the General Mixed Yule Coalescent model. 
+
+The motivation for writing this package is that for the kind of data this model is usually applied to (DNA barcode sequences), a single point estimate of phylogeny is typically associated with large amounts of uncertainty. Unaccounted for, the model may lead to overconfidence in species limits, influencing the accuracy of downstream analyses of species diversity or community structure.  
+
+As such, this algorithm is meant to be applied to multiple trees sampled from a posterior distribution of ultrametic trees (approximated using some clock model, e.g. in BEAST (Drummond and Rambaut 2007)).  Because the idea is to conduct multiple MCMC runs, if you use it, you should check the output of each MCMC* to see that it looks to be sampling from a stationary distribution. I am not an experienced programmer, so this package is probably not the most efficient way of doing things, but I have run it on many data sets and conducted a simulation study testing it's efficacy, so I know it is fairly robust. BUT PLEASE LET ME KNOW IF YOU HAVE PROBLEMS. 
+
+ALSO: SEE BELOW FOR A LIST OF PARAMETERS THAT YOU SHOULD MAKE SURE YOU SET APPROPRIATELY FOR YOUR ANALYSIS, AND A LIST OF ERRORS USERS HAVE REPORTED TO ME AND HOW YOU CAN FIX THEM. 
+
+*if you don't know what markov chain monte carlo (MCMC) is, or how it works, explaining fully is beyond the scope of this document. it's become a central analytical technique in evolutionary genetics and there are many resources on the web to help you understand it. 
+
+INSTRUCTIONS
+
+bGMYC is distributed as an R package. It requires only the package "ape" to run. So that needs to be installed first. Once installed, bGMYC can be installed from a unix terminal window using the command: 
+
+	R CMD INTSTALL path/bGMYC_1.0.tar.gz
+
+Once R is opened, it can be loaded using:
+
+	library(bGMYC)
+	
+Documentation for each function is included and can be gotten by typing:
+	
+	?functionname
+
+The data necessary to run bGMYC are phylogenetic trees. It can be run with a single tree, but the main strength of this implementation is to integrate over uncertainty in tree space by analyzing many trees. In practice, I have found that around 100 trees sampled at intervals from a posterior distribution of trees is sufficient to capture that uncertainty, but it may vary from dataset to dataset. 
+
+Trees can be loaded using the ape command:
+
+	read.nexus(file="path/treefile.tre")->trees
+	
+Once the trees are in loaded, the first step is to run the algorithm on a single tree to make sure it's working and see what the burn-in should be. 50k generations is a good start. The threshold parameter priors and starting parameter values need to be set. The threshold parameter is essentially the number of species, and is given a uniform prior, so the priors, t1 and t2 need to be set to possible values (e.g. between 2 and the number of leaves in the tree) and the starting value for that parameter (the third value in the "start" vector) needs to be t1<start<t2 or else there will be an error. 
+
+	bgmyc.singlephy(trees[[1]], mcmc=50000, burnin=1, thinning=10, t1=2, t2=100, start=c(1,1,25))->result.single
+	
+When this finishes, plot the output of the MCMC to see if the chain is mixing and how long it takes to reach stationarity. I am recommending visual checks here rather than a more rigorous check for convergence because the model is fairly simple, with only three parameters. Use the function:
+
+	plot(result.single)
+	
+You can check whether the uniform priors are placing unreasonable bounds on the chain, whether mixing is adequate, and decide what the burn-in should be. If it looks like the MCMC is converging on the number of tips in your input trees, this may be an indication that the model does not fit your data (MCMC  evaluation of trees with no discernable threshold tend to favor delimiting every sequence as a species). 
+
+Once you decide what the burn-in needs to be, you can decide how many trees you want to run (I usually use 100) and the thinning interval (I usually use 100). If you run 100 trees, keeping 10k post-burnin generations and use a thinning interval of 100, that yields 10k samples. That usually seems to be more than enough (in that adding more trees or more samples doesn't really change the final results), but results will vary from dataset to dataset. I should also point out that as you start adding many tips, things slow down a bit, the most I've ever run was ~400 tips and it took about a day to complete. Now, in order to run many trees you can use:
+
+	bgmyc.multiphylo(trees, mcmc=50000, burnin=40000, thinning=100)->result.multi
+	
+When this finishes, again use:
+
+	plot(result.multi)
+	
+to check the behavior of the MCMC. These plots may look a little funny, however, because they are the results of several sequential MCMC runs, each with their own burn-in. You may find that one or two of the trees fails to reach stationarity or winds up in a weird area of parameter space. This may suggest that you should use a longer burn-in. 
+
+If things look fine, then you can run
+
+	bgmyc.spec(result.multi)->result.spec
+	
+to get a table that lists each species sampled in the course of the MCMC runs and its posterior probability. If you specify "filename" it will output this information as a table. This function uses a line of unix code, so if you are running bGMYC on a PC or non-unix based operating system, it won't work. 
+
+If you want to visualize the posterior distribution in the context of the tree, you should do:
+
+	spec.probmat(result.multi)->result.probmat
+	plot(result.probmat, trees[[1]])
+
+spec.probmat produces a matrix of tree leaves by tree leaves with each cell containing the probability that the two corresponding tree leaves are members of the same species. plotting this matrix along with a single phylogenetic tree will order the matrix and display a heatmap-like image with a legend that shows the probabilities of conspecificity, as shown in our paper. 
+
+I have recently added another function to visualize the results in a way that will hopefully be helpful. The GMYC model is likely to be successful when the rate of branching for the coalescent process is much higher (approaching an order of magnitude higher) than for the Yule process. Accordingly, there is a function "checkrates" that will output all parameter values from the run in a table. If we look at the distribution of ratios of the Coalescence to Yule rates sampled in the analysis, we would like to see that it is well above 0, with no negative values. If this is true, then the model may be a decent approximation to the reality of the data. If the ratio of rates overlaps or is close to 0, then the transition between branching processes (if it exists) is likely to be indistinct and estimates of species limits may be misleading. Log ratios of less than 0 would indicate a higher speciation rate than coalescence rate. If such samples ever appear in the MCMC this should raise huge red flags and you should consider the possibility that the model may not be a good fit for your data. The usage for these functions is:
+
+checkrates(result.multi)->bgmycrates
+plot(bgmycrates)
+
+The plot function is pretty basic and not very complicated, so I'm sure any R whiz out there will be able to whip up a better looking figure using the table from the checkrates function. 
+
+I should be clear that if the rate ratio is very low, this does not bode well for the analysis, but if the rate ratio is high, that is not a guarantee that the analysis is reliable. Casting a critical eye on the results and making sure they make sense is always a good idea. 
+
+At the request of several users, I have also added a function to output a single point estimate of species limits. This function is "bgmyc.point" and requires output from spec.probmat and that the user specify a conspecificity probability threshold above which individuals will be considered conspecific. The output is an R list in which each element is a "species" consisting of a vector of sample names from the input trees. Threshold selection should be based on what you want to use the point estimate for. A value of 0.05 means a lumping approach. A value of 0.5 is like selecting the posterior mean of the analysis. 0.95 will heavily split samples. 
+
+This is all I've got for now. Please let me know if you need assistance or have recommendations for how better to process and display the results. Thanks for using my package!
+
+Noah Reid
+
+INPUT PARAMETER LIST:
+
+phylo = a single phylogenetic tree of class "phylo"
+
+multiphylo = a list of phylogenetic trees of class "multiphylo"
+
+mcmc = this variable determines the number of samples in the MCMC analysis for each tree. e.g. if mcmc=20000 and length(multiphylo)=100, then 2,000,000 samples will be taken. 
+
+burnin = the number of steps to be discarded as burnin from each MCMC analysis. in the above example, if burnin=10000, then 1,000,000 samples will remain in the analysis
+
+thinning = the interval at which samples are kept in the MCMC. in the above example, if thinning=100, and burnin=10000, 10,000 samples will remain. Only every hundredth sample, after burn-in is retained. 
+
+The following parameters set bounds on uniform priors on the three parameters in the model:
+
+py1=the lower bound for the prior on the Yule process rate change parameter. 
+
+py2=the upper bound for the prior on the Yule process rate change paramter. 
+
+pc1=the lower bound for the prior on the coalescent process rate change parameter. 
+
+pc2=the upper bound for the prior on the coalescent process rate change parameter. 
+
+t1=lower bound for the prior on the threshold parameter. must be greater than 0. corresponds to the minimum number of species for which the prior probability is greater than 0. 
+
+t2=upper bound for the prior on the threshold parameter. must be less than or equal to the number of tips in the trees being analyzed. Gives the maximum number of species for which the prior probability is greater than 0. If it is greater than the number of tips in the tree, an error will result. 
+
+start=starting parameters for the mcmc in the order start=c(py, pc, th). th must be set to a number between t1 and t2 or an error will result. 
+
+scale=these parameters determine the size of the proposals made in the MCMC analysis in the order scale=c(py, pc, th). If acceptance rates are not between .2 and .8 for some parameters, it can help to experiment with changing their corresponding scale parameters. 
+
+OUTPUT PARAMETERS:
+
+acceptance rates: these numbers indicate the frequency with which proposals made in the MCMC are accepted. they correspond to the three model parameters py, pc and th, explained above. 
+
+ERRORS:
+
+1) "Error in data$n[[params[3]]] : subscript out of bounds" from function: "bgmyc.multiphylo"
+
+	This is the most commonly observed error. It usually occurs when the "start" variable is not set as stated above. The third value in "start" must be between the values given to t1 and t2. 
+
+2) "Error in read.table(pipe(paste(unlist(commandline), collapse = " ")),  : 
+  no lines available in input" from function "bgmyc.spec"
+	
+	This error occurs when the package is run on windows. Unfortunately I have a few lines of unix code that make the package incompatible with windows. Hopefully I will soon find the time to make the package pure R code. Until then, sorry!
+	
+Again, please let me know if you encounter other errors or have questions!
+
+References:
+Drummond, A. J. and A. Rambaut (2007). "BEAST: Bayesian evolutionary analysis by sampling trees." Bmc Evolutionary Biology 7.
+
+Pons, J., T. G. Barraclough, et al. (2006). "Sequence-based species delimitation for the DNA taxonomy of undescribed insects." Systematic Biology 55(4): 595-609.
+
+Reid and Carstens 2012. Phylogenetic estimation error can decrease the accuracy species delimitation: A Bayesian implementation of the General Mixed Yule Coalescent model. 
