@@ -4,13 +4,31 @@
  <title>Noah Reid</title>
  <link href="http://getpoole.com/atom.xml" rel="self"/>
  <link href="http://getpoole.com/"/>
- <updated>2016-12-05T12:53:21-05:00</updated>
+ <updated>2017-10-26T11:52:52-04:00</updated>
  <id>http://getpoole.com</id>
  <author>
    <name>Noah Reid</name>
    <email>noah.reid@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Update.</title>
+   <link href="http://getpoole.com//2016/12/05/update/"/>
+   <updated>2016-12-05T00:00:00-05:00</updated>
+   <id>http://getpoole.com/2016/12/05/update</id>
+   <content type="html">&lt;p&gt;Since my last post, I have moved to the &lt;a href=&quot;http://uconn.edu&quot;&gt;University of Connecticut&lt;/a&gt; and started a position as Assistant Research Professor in the &lt;a href=&quot;http://mcb.uconn.edu&quot;&gt;Department of Molecular and Cell Biology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am doing a few things at the moment:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;putting together my first course (grad level).&lt;/li&gt;
+  &lt;li&gt;writing a couple grants.&lt;/li&gt;
+  &lt;li&gt;trying to finish analyzing data from, writing up, and/or revising work arising from my postdoc with &lt;a href=&quot;https://whiteheadresearch.wordpress.com/&quot;&gt;Andrew Whitehead&lt;/a&gt; at &lt;a href=&quot;http://www.envtox.ucdavis.edu/&quot;&gt;UC Davis&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;being psyched about the publication this week of some of said work in &lt;em&gt;Science&lt;/em&gt;!&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Testing code snippets.</title>
@@ -21,9 +39,9 @@
 
 &lt;p&gt;Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tabix my.vcf.bgz Scaffold10 | grep -oP &#39;(?&amp;lt;=DP=)[^;]+&#39;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Depth&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breaks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tabix my.vcf.bgz Scaffold10 | grep -oP '(?&amp;lt;=DP=)[^;]+'&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scan&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Depth&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breaks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Here I’ve extracted the contents of the tag ‘DP’, which contains the depth of coverage of the variant.&lt;/p&gt;
 

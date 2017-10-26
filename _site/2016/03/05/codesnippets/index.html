@@ -63,9 +63,9 @@
 
 <p>Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…</p>
 
-<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">cl</span> <span class="o">&lt;-</span> <span class="s2">"tabix my.vcf.bgz Scaffold10 | grep -oP '(?&lt;=DP=)[^;]+'"</span>
-<span class="n">dp</span> <span class="o">&lt;-</span> <span class="n">scan</span><span class="p">(</span><span class="n">pipe</span><span class="p">(</span><span class="n">cl</span><span class="p">))</span>
-<span class="n">hist</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Depth"</span><span class="p">,</span><span class="n">breaks</span><span class="o">=</span><span class="m">100</span><span class="p">)</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">cl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"tabix my.vcf.bgz Scaffold10 | grep -oP '(?&lt;=DP=)[^;]+'"</span><span class="w">
+</span><span class="n">dp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">scan</span><span class="p">(</span><span class="n">pipe</span><span class="p">(</span><span class="n">cl</span><span class="p">))</span><span class="w">
+</span><span class="n">hist</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Depth"</span><span class="p">,</span><span class="n">breaks</span><span class="o">=</span><span class="m">100</span><span class="p">)</span></code></pre></figure>
 
 <p>Here I’ve extracted the contents of the tag ‘DP’, which contains the depth of coverage of the variant.</p>
 
@@ -85,6 +85,15 @@
     
       <li>
         <h4>
+          <a href="//2016/12/05/update/">
+            Update.
+            <small><time datetime="2016-12-05T00:00:00-05:00">05 Dec 2016</time></small>
+          </a>
+        </h4>
+      </li>
+    
+      <li>
+        <h4>
           <a href="//2016/03/02/newpaper/">
             New paper!
             <small><time datetime="2016-03-02T00:00:00-05:00">02 Mar 2016</time></small>
@@ -97,15 +106,6 @@
           <a href="//2015/03/03/rna-seq_issues/">
             Comparative RNA-seq
             <small><time datetime="2015-03-03T00:00:00-05:00">03 Mar 2015</time></small>
-          </a>
-        </h4>
-      </li>
-    
-      <li>
-        <h4>
-          <a href="//2015/03/02/welcome/">
-            Welcome to my new site.
-            <small><time datetime="2015-03-02T00:00:00-05:00">02 Mar 2015</time></small>
           </a>
         </h4>
       </li>
@@ -134,7 +134,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-12-05T12:53:21-05:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2017-10-26T11:52:52-04:00">2017</time>. All rights reserved.
         </small>
       </footer>
     </div>

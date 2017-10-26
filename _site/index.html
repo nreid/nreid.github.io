@@ -60,6 +60,28 @@
   
   <article class="post">
     <h2 class="post-title">
+      <a href="/2016/12/05/update/">
+        Update.
+      </a>
+    </h2>
+
+    <time datetime="2016-12-05T00:00:00-05:00" class="post-date">05 Dec 2016</time>
+
+    <p>Since my last post, I have moved to the <a href="http://uconn.edu">University of Connecticut</a> and started a position as Assistant Research Professor in the <a href="http://mcb.uconn.edu">Department of Molecular and Cell Biology</a>.</p>
+
+<p>I am doing a few things at the moment:</p>
+
+<ol>
+  <li>putting together my first course (grad level).</li>
+  <li>writing a couple grants.</li>
+  <li>trying to finish analyzing data from, writing up, and/or revising work arising from my postdoc with <a href="https://whiteheadresearch.wordpress.com/">Andrew Whitehead</a> at <a href="http://www.envtox.ucdavis.edu/">UC Davis</a>.</li>
+  <li>being psyched about the publication this week of some of said work in <em>Science</em>!</li>
+</ol>
+
+  </article>
+  
+  <article class="post">
+    <h2 class="post-title">
       <a href="/2016/03/05/codesnippets/">
         Testing code snippets.
       </a>
@@ -71,9 +93,9 @@
 
 <p>Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…</p>
 
-<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">cl</span> <span class="o">&lt;-</span> <span class="s2">"tabix my.vcf.bgz Scaffold10 | grep -oP '(?&lt;=DP=)[^;]+'"</span>
-<span class="n">dp</span> <span class="o">&lt;-</span> <span class="n">scan</span><span class="p">(</span><span class="n">pipe</span><span class="p">(</span><span class="n">cl</span><span class="p">))</span>
-<span class="n">hist</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Depth"</span><span class="p">,</span><span class="n">breaks</span><span class="o">=</span><span class="m">100</span><span class="p">)</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">cl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"tabix my.vcf.bgz Scaffold10 | grep -oP '(?&lt;=DP=)[^;]+'"</span><span class="w">
+</span><span class="n">dp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">scan</span><span class="p">(</span><span class="n">pipe</span><span class="p">(</span><span class="n">cl</span><span class="p">))</span><span class="w">
+</span><span class="n">hist</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Depth"</span><span class="p">,</span><span class="n">breaks</span><span class="o">=</span><span class="m">100</span><span class="p">)</span></code></pre></figure>
 
 <p>Here I’ve extracted the contents of the tag ‘DP’, which contains the depth of coverage of the variant.</p>
 
@@ -102,32 +124,6 @@
 
   </article>
   
-  <article class="post">
-    <h2 class="post-title">
-      <a href="/2015/03/03/rna-seq_issues/">
-        Comparative RNA-seq
-      </a>
-    </h2>
-
-    <time datetime="2015-03-03T00:00:00-05:00" class="post-date">03 Mar 2015</time>
-
-    <p>I just dove into a really cool project looking at patterns of gene expression underlying osmotic adaptation in a phylogenetic comparative context. I think this work is really, really cool, but from the very start, we’re faced with problems that I’m not sure how to deal with.</p>
-
-<p>The choice I’m currently mulling is whether we should try to assemble transcriptomes de novo for each species, or map them all back to a common reference. If we do reference mapping, things are computationally simpler and a larger gene set will ultimately be evaluated, but it seems that there must be some biases associated with the mapping, including mismapping resulting from divergence, failure to account for gene duplication/extinction among species etc. On the other hand, if we attempt de novo assemblies, we vastly increase the computational complexity, presumably many genes won’t be assembled in many species, and thus won’t be analyzed, but we will probably get a more accurate quantification of those genes that are included.</p>
-
-<p>Further complicating things, I’ve already tried mapping back to the reference genome with the Tuxedo pipeline, and mapping rates for species that diverge from the reference are stunningly low. Things get much better if I map to the transcriptome using a sensitive aligner like Stampy, but it seems we’ll lose some of the benefit of reference mapping if we have to use our established species-specific transcriptome.</p>
-
-<p>I’ve been trying to review the literature, but there isn’t a whole lot on this issue. These these papers have been helpful in thinking about it though:</p>
-
-<p>Vijay, Nagarjun, et al. <em>“Challenges and strategies in transcriptome assembly and differential gene expression quantification. A comprehensive in silico assessment of RNA‐seq experiments.”</em> Molecular ecology 22.3 (2013): 620-634.</p>
-
-<p>Benjamin, Ashlee M., et al. <em>“Comparing reference-based RNA-Seq mapping methods for non-human primate data.”</em> BMC genomics 15.1 (2014): 570.</p>
-
-<p>Hornett, Emily A., and Christopher W. Wheat. <em>“Quantitative RNA-Seq analysis in non-model species: assessing transcriptome assemblies as a scaffold and the utility of evolutionary divergent genomic reference species.”</em> BMC genomics 13.1 (2012): 361.</p>
-
-
-  </article>
-  
 </div>
 
 <div class="pagination">
@@ -146,7 +142,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2016-12-05T12:53:21-05:00">2016</time>. All rights reserved.
+          &copy; <time datetime="2017-10-26T11:52:52-04:00">2017</time>. All rights reserved.
         </small>
       </footer>
     </div>
