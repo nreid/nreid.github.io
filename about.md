@@ -12,13 +12,9 @@ In Fall 2016, I started as an Assistant Research Professor in the [Department of
 
 -----
 
-If you are interested in the work I've done, here are my [C.V.](/assets/NoahReid_CV_Full_Feb2015_final.pdf) and my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
+If you are interested in the work I've done, here are my [C.V.](/assets/NoahReid_CV_Full_Oct2017.pdf) and my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
 I am an administrator/contributor at the group blog [Nothing in Biology Makes Sense!](http://nothinginbiology.org/), which covers new research in the fields of Evolution and Ecology. Check it out! Like us on [Facebook](http://www.facebook.com/NothingInBiology) or follow us on [Twitter](http://twitter.com/NothingInBio)! 
-
------
-
-I'm married to [Sarah Hird](https://sites.google.com/site/sarahhird/), an Assistant Professor in MCB here at UConn. We have two young sons, and a dog who, while enthusiastic about the food mess, is overall kind of nonplussed about the whole kid thing. 
 
 -----
 
@@ -38,9 +34,7 @@ _address:_
 
 ### Links
 
-[Andrew Whitehead's](https://whiteheadresearch.wordpress.com/) webpage and the [Department of Environmental Toxicology.](http://www.envtox.ucdavis.edu/)
-
-My wife, a postdoc in the Genome Center at U.C. Davis, [Sarah M. Hird](https://sites.google.com/site/sarahhird/)
+Postdoctoral advisor [Andrew Whitehead's](https://whiteheadresearch.wordpress.com/) webpage and the [Department of Environmental Toxicology.](http://www.envtox.ucdavis.edu/)
 
 Ph.D institution, [LSU](http://www.biology.lsu.edu/cos/biosci/). Geaux Tigers!
 

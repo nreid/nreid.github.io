@@ -60,67 +60,14 @@
   
   <article class="post">
     <h2 class="post-title">
-      <a href="/2016/12/05/update/">
-        Update.
+      <a href="/2017/10/20/welcome/">
+        Welcome.
       </a>
     </h2>
 
-    <time datetime="2016-12-05T00:00:00-05:00" class="post-date">05 Dec 2016</time>
+    <time datetime="2017-10-20T00:00:00-04:00" class="post-date">20 Oct 2017</time>
 
-    <p>Since my last post, I have moved to the <a href="http://uconn.edu">University of Connecticut</a> and started a position as Assistant Research Professor in the <a href="http://mcb.uconn.edu">Department of Molecular and Cell Biology</a>.</p>
-
-<p>I am doing a few things at the moment:</p>
-
-<ol>
-  <li>putting together my first course (grad level).</li>
-  <li>writing a couple grants.</li>
-  <li>trying to finish analyzing data from, writing up, and/or revising work arising from my postdoc with <a href="https://whiteheadresearch.wordpress.com/">Andrew Whitehead</a> at <a href="http://www.envtox.ucdavis.edu/">UC Davis</a>.</li>
-  <li>being psyched about the publication this week of some of said work in <em>Science</em>!</li>
-</ol>
-
-  </article>
-  
-  <article class="post">
-    <h2 class="post-title">
-      <a href="/2016/03/05/codesnippets/">
-        Testing code snippets.
-      </a>
-    </h2>
-
-    <time datetime="2016-03-05T00:00:00-05:00" class="post-date">05 Mar 2016</time>
-
-    <p>I’m just writing this to see how code snippets work using markdown and jekyll…</p>
-
-<p>Here is a simple thing I often do to summarize distributions of pieces of information from the INFO field of a vcf file…</p>
-
-<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">cl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"tabix my.vcf.bgz Scaffold10 | grep -oP '(?&lt;=DP=)[^;]+'"</span><span class="w">
-</span><span class="n">dp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">scan</span><span class="p">(</span><span class="n">pipe</span><span class="p">(</span><span class="n">cl</span><span class="p">))</span><span class="w">
-</span><span class="n">hist</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Depth"</span><span class="p">,</span><span class="n">breaks</span><span class="o">=</span><span class="m">100</span><span class="p">)</span></code></pre></figure>
-
-<p>Here I’ve extracted the contents of the tag ‘DP’, which contains the depth of coverage of the variant.</p>
-
-<p>In this case I’m feeding a line of code to the system, “cl”, with <code class="highlighter-rouge">pipe()</code>, and reading the results into R with <code class="highlighter-rouge">scan()</code>.</p>
-
-<p>To break down “cl”: I use tabix to quickly access arbitrary chunks of VCF files, then pipe the output to grep to pull out the depth. The flag <code class="highlighter-rouge">-o</code> extracts the regex match, and <code class="highlighter-rouge">-P</code> allows me to use what’s called a ‘positive lookahead’. That’s the section <code class="highlighter-rouge">(?&lt;=DP=)</code>. This requires the regex to match “DP=”, but doesn’t return it as part of the match. Then I match the characters in the field with <code class="highlighter-rouge">[^;]+</code>, which matches one or more of any character except “;”, which is the field delimiter.</p>
-
-<p>Here’s the result:</p>
-
-<p><img src="/assets/test.hist.png" alt="histogram" /></p>
-
-  </article>
-  
-  <article class="post">
-    <h2 class="post-title">
-      <a href="/2016/03/02/newpaper/">
-        New paper!
-      </a>
-    </h2>
-
-    <time datetime="2016-03-02T00:00:00-05:00" class="post-date">02 Mar 2016</time>
-
-    <p>I haven’t posted in a while, but the first of several papers from my postdoctoral work in the Whitehead lab has been <a href="http://bfg.oxfordjournals.org/content/early/2015/12/20/bfgp.elv060.abstract">published</a>!</p>
-
-<p>Reid, Noah M., and Andrew Whitehead. <em>“Functional genomics to assess biological responses to marine pollution at physiological and evolutionary timescales: toward a vision of predictive ecotoxicology.”</em> <strong>Briefings in functional genomics</strong> (2015): elv060.</p>
+    <p>Welcome to my website. To see what I’ve been up to, check out the links above.</p>
 
   </article>
   
@@ -128,7 +75,7 @@
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="page2">Older</a>
+    <span class="pagination-item older">Older</span>
   
   
     <span class="pagination-item newer">Newer</span>
@@ -142,7 +89,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2017-10-26T13:07:29-04:00">2017</time>. All rights reserved.
+          &copy; <time datetime="2017-10-26T13:59:37-04:00">2017</time>. All rights reserved.
         </small>
       </footer>
     </div>
