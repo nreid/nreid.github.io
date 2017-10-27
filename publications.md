@@ -6,13 +6,13 @@ title: Publications
 Download my [C.V.](/assets/NoahReid_CV_Full_Oct2017.pdf) and check out my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
 
-**Noah M Reid**, Craig E. Jackson, Don Gilbert, Patrick Minx, Michael J. Montague, Thomas H. Hampton, Lily W. Helfrich, Benjamin L. King, Diane E. Nacci, Neel Aluru, Sibel I. Karchner, John K. Colbourne, Mark E. Hahn, Joseph R. Shaw, Marjorie F. Oleksiak, Doug L. Crawford, Wesley C. Warren, and Andrew Whitehead. 2017. _The landscape of extreme genomic variation in the highly adaptable Atlantic killifish._ Genome Biology and Evolution, 9(3):659-676.
+**Noah M. Reid**, Craig E. Jackson, Don Gilbert, Patrick Minx, Michael J. Montague, Thomas H. Hampton, Lily W. Helfrich, Benjamin L. King, Diane E. Nacci, Neel Aluru, Sibel I. Karchner, John K. Colbourne, Mark E. Hahn, Joseph R. Shaw, Marjorie F. Oleksiak, Doug L. Crawford, Wesley C. Warren, and Andrew Whitehead. 2017. _The landscape of extreme genomic variation in the highly adaptable Atlantic killifish._ Genome Biology and Evolution, 9(3):659-676.
 
-Andrew Whitehead, Bryan W. Clark, **Noah M Reid**, Mark E. Hahn, and Diane Nacci. 2017. _When evolution is the solution to pollution: Key principles, and lessons from rapid repeated adaptation of killifish (Fundulus heteroclitus) populations._ Evolutionary Applications, 2017:1-22.
+Andrew Whitehead, Bryan W. Clark, **Noah M. Reid**, Mark E. Hahn, and Diane Nacci. 2017. _When evolution is the solution to pollution: Key principles, and lessons from rapid repeated adaptation of killifish (Fundulus heteroclitus) populations._ Evolutionary Applications, 2017:1-22.
 
 Erika B. Holland, Jared V. Goldstone, Isaac N. Pessah, Andrew Whitehead, **Noah M. Reid**, Sibel Karchner, Mark E. Hahn, Diane E. Nacci, Bryan W. Clark, and John J. Stegeman. 2017. _Ryanodine receptor and FK506 binding protein 1 in the Atlantic killifish (Fundulus heteroclitus): A phylogenetic and population-based comparison._ Aquatic Toxicology, 192:105-115. 
 
-**Noah M Reid NM**, Dina A. Proestou, Bryan W. Clark,Wesley C. Warren,John K. Colbourne, Joseph R. Shaw, Sibel I. Karchner, Mark E. Hahn, Diane Nacci, Marjorie F. Oleksiak, Doug L. Crawford, and Andrew Whitehead. 2016. _The genomic landscape of rapid repeated evolutionary adaptation to toxic pollution in wild fish._ Science, 354(6317):1305-1308.
+**Noah M. Reid NM**, Dina A. Proestou, Bryan W. Clark,Wesley C. Warren,John K. Colbourne, Joseph R. Shaw, Sibel I. Karchner, Mark E. Hahn, Diane Nacci, Marjorie F. Oleksiak, Doug L. Crawford, and Andrew Whitehead. 2016. _The genomic landscape of rapid repeated evolutionary adaptation to toxic pollution in wild fish._ Science, 354(6317):1305-1308.
 
 Bryan C Carstens, Michael Gruenstaeudl, and **Noah M. Reid**. 2016. _Community trees: Identifying codiversification in the Paramo dipteran community._ Evolution, 70(5): 1080-0193.
 
