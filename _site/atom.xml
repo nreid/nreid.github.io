@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Noah Reid</title>
- <link href="http://localhost:4000atom.xml" rel="self"/>
- <link href="http://localhost:4000"/>
- <updated>2017-10-27T10:48:42-04:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://getpoole.comatom.xml" rel="self"/>
+ <link href="http://getpoole.com"/>
+ <updated>2017-10-27T11:11:18-04:00</updated>
+ <id>http://getpoole.com</id>
  <author>
    <name>Noah Reid</name>
    <email>noah.reid@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Welcome.</title>
-   <link href="http://localhost:4000/2017/10/20/welcome/"/>
+   <link href="http://getpoole.com/2017/10/20/welcome/"/>
    <updated>2017-10-20T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2017/10/20/welcome</id>
+   <id>http://getpoole.com/2017/10/20/welcome</id>
    <content type="html">&lt;p&gt;Welcome to my website. To see what I’ve been up to, check out the links above.&lt;/p&gt;
 
 &lt;hr /&gt;

@@ -8,3 +8,8 @@ title: Software
 I also wrote an R package (Reid et al. 2013) to check model adequacy of the multispecies coalescent model as implemented in *BEAST using posterior predictive simulation. This package had quite a few dependencies and thus was very fragile and broke quickly as they were updated. A part of the procedure I devised was adapted by [Michael Gruenstaeudl](https://blogs.fu-berlin.de/gruenstaeudl/) into the R package P2C2M, available on CRAN. 
 
 For completeness, here are the [data](/assets/Reid_etal_PPSdata.zip) used in the paper, and the original [package](/assets/starbeastPPS.zip). 
+
+-----
+
+![Ausable River, NY](/assets/IMG_20170513_135025_853.jpg)
+
