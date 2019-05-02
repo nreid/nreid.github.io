@@ -3,8 +3,13 @@ layout: page
 title: Publications
 ---
 
-Download my [C.V.](/assets/NoahReid_CV_Full_Oct2017.pdf) and check out my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
+Download my [C.V.](/assets/NoahReid_1_CV_Full_April2019.pdf) and check out my [Google Scholar](http://scholar.google.com/citations?user=IbPpB9sAAAAJ&hl=en) citation page. 
 
+Jeffrey T. Miller, **Noah M. Reid**, Diane Nacci, Andrew Whitehead. 2019. _Developing a high-quality linkage map for the fish Fundulus heteroclitus._ Submitted to G3.
+
+Elias M. Oziolor, **Noah M. Reid**, Sivan Yair, Kristin M. Lee, Sara Guberman Verploeg, Peter C. Bruns PC, Joseph R. Shaw, Andrew Whitehead, Cole W. Matson. 2019. _Adaptive introgression enables evolutionary rescue from extreme environmental pollution._ Science. _In press._
+
+Rachel Rodgers, Jen Roach, **Noah M. Reid**, Andrew Whitehead, and David D. Duvernell. 2017. _Phylogenomic analysis of Fundulidae (Teleostei: Cyprinodotiformes) using RNA-sequencing Data._ Molecular Phylogenetics and Evolution, 121:150-157.
 
 **Noah M. Reid**, Craig E. Jackson, Don Gilbert, Patrick Minx, Michael J. Montague, Thomas H. Hampton, Lily W. Helfrich, Benjamin L. King, Diane E. Nacci, Neel Aluru, Sibel I. Karchner, John K. Colbourne, Mark E. Hahn, Joseph R. Shaw, Marjorie F. Oleksiak, Doug L. Crawford, Wesley C. Warren, and Andrew Whitehead. 2017. _The landscape of extreme genomic variation in the highly adaptable Atlantic killifish._ Genome Biology and Evolution, 9(3):659-676.
 
